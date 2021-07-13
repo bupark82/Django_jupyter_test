@@ -2,7 +2,7 @@
 
 ## 1주차 (2021.07.13)
 
-$pip install virtualenv
+###$pip install virtualenv
 $virtualenv venv
 $source venv/bin/activate
 $pip install django
