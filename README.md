@@ -2,15 +2,33 @@
 
 ## 1주차 (2021.07.13)
 
-- [인공지능 사례 분석 ]
-
+$pip install virtualenv
+$virtualenv venv
+$source venv/bin/activate
+$pip install django
+$django-admin startproject tutorialdjango .
+$python manage.py migrate
+$python manage.py runserver 0.0.0.0:8000
+->urls.py
+$python manage.py startapp main
+->settings.py
+->urls.py
+->views.py
+->main>template>main>index.html
+$python manage.py runserver 0.0.0.0:8000
+->models.py
+$python manage.py makemigrations
+$python manage.py migrate
+$python manage.py createsuperuser
+$python manage.py runserver 0.0.0.0:8000
+->admin.py
+->models.py
+->views.py
+->main>template>main>index.html
+$python manage.py runserver 0.0.0.0:8000
 ## *주차 (2021.07.**)
-
-- [파이썬과 인공지능 기초수학]
-
+- 
 ## *주차 (2021.07.**)
-- [학습률 최적화, 군집 분석 구현, Cost Function 구현]
-- 위의 파일이 열리지 않는 다면 이 방식으로 업로드 해 주세요. -> [3주차 과제 nbviewer]
-
+- 
 ## *주차 (2021.07.**)
-- [딥러닝 용어 정리, 클론 코딩, 딥러닝 순전파 & 역전파 계산]
+- 
